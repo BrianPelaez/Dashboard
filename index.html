@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS & CDN -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="./img/logo.jpg" alt="logo">
+                    <h2>NOM<span class="danger">BRE</span></h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+            <!-- Sidebar Start -->
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">account_circle</span>
+                    <h3>Clientes</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">list_alt</span>
+                    <h3>Ordenes</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">analytics</span>
+                    <h3>Análisis</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">mail</span>
+                    <h3>Mensajes</h3>
+                    <span class="message-count">26</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">inventory_2</span>
+                    <h3>Productos</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">inventory</span>
+                    <h3>Reportes</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings</span>
+                    <h3>Configuración</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">add</span>
+                    <h3>Agregar Producto</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout</span>
+                    <h3>Cerrar Sesión</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- Sidebar End -->
+        <!-- Main Start -->
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <div class="insights">
+                <!-- Ventas Start -->
+                <div class="sales">
+                    <span class="material-icons-sharp">analytics</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Ventas Totales</h3>
+                            <h1>$25.000</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Ultimas 24 horas</small>
+                </div>
+                <!-- Ventas End -->
+                <!-- Ventas Start -->
+                <div class="expenses">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Comisión</h3>
+                            <h1>$5.300</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>13%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Ultimas 24 horas</small>
+                </div>
+                <!-- Ventas End -->
+                <!-- Ventas Start -->
+                <div class="income">
+                    <span class="material-icons-sharp">stacked_line_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Ventas Totales</h3>
+                            <h1>$13.000</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx="38" cy="38" r="36"></circle>
+                            </svg>
+                            <div class="number">
+                                <p>44%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Ultimas 24 horas</small>
+                </div>
+                <!-- Ventas End -->
+            </div>
+        </main>
+        <!-- Main End -->
+    </div>
+</body>
+</html>
